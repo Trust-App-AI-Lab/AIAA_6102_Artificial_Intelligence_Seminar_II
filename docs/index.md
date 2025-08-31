@@ -1,5 +1,3 @@
-# AIAA 6102 Artificial Intelligence Seminar II
-
 <link rel="stylesheet" href="styles.css">
 
 <div class="hero-section">
