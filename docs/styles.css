@@ -93,31 +93,37 @@ h2 {
   text-align: center;
 }
 
-/* 嘉宾卡片 */
-.speakers-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
+/* 嘉宾卡片 - 新布局 */
+.speakers-section {
   margin: 2rem 0;
 }
 
-.speaker-card {
+.speaker-card-full {
   background: white;
   border-radius: 16px;
   padding: 2rem;
+  margin-bottom: 2rem;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border: 1px solid #e5e7eb;
 }
 
-.speaker-card:hover {
+.speaker-card-full:hover {
   transform: translateY(-4px);
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
+.speaker-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #f3f4f6;
+}
+
 .speaker-avatar {
-  text-align: center;
-  margin-bottom: 1.5rem;
+  flex-shrink: 0;
 }
 
 .speaker-avatar img {
@@ -128,32 +134,26 @@ h2 {
   border: 4px solid #f3f4f6;
 }
 
-.speaker-info h3 {
-  font-size: 1.5rem;
+.speaker-basic-info {
+  flex: 1;
+}
+
+.speaker-basic-info h3 {
+  font-size: 1.75rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
   color: #1f2937;
-  text-align: center;
 }
 
 .speaker-title {
   color: #6b7280;
-  font-size: 1rem;
-  margin-bottom: 0.5rem;
-  text-align: center;
-}
-
-.speaker-topic {
-  color: #374151;
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin-bottom: 1rem;
-  text-align: center;
-  font-style: italic;
+  font-weight: 500;
 }
 
 .speaker-tags {
   display: flex;
-  justify-content: center;
   gap: 0.5rem;
   flex-wrap: wrap;
 }
@@ -165,6 +165,35 @@ h2 {
   border-radius: 20px;
   font-size: 0.875rem;
   font-weight: 500;
+}
+
+.speaker-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.speaker-section h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #1f2937;
+  border-left: 4px solid #667eea;
+  padding-left: 1rem;
+}
+
+.speaker-abstract {
+  color: #374151;
+  line-height: 1.7;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.speaker-bio {
+  color: #374151;
+  line-height: 1.7;
+  font-size: 1rem;
+  margin-bottom: 1rem;
 }
 
 /* 视频区域 */
@@ -460,8 +489,13 @@ hr {
     gap: 2rem;
   }
   
-  .speakers-grid {
-    grid-template-columns: 1fr;
+  .speaker-header {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .speaker-avatar {
+    align-self: center;
   }
   
   .video-grid {
