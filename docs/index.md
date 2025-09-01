@@ -28,6 +28,9 @@ This seminar aims to deeply explore the latest developments in artificial intell
 ## 🎓 Seminar Sessions
 
 <div class="sessions-section">
+  <div class="session-number">
+    <span class="episode-badge">Episode 1</span>
+  </div>
   <div class="session-card">
     <div class="session-header">
       <div class="speaker-avatar">
@@ -39,7 +42,7 @@ This seminar aims to deeply explore the latest developments in artificial intell
         <div class="speaker-tags">
           <span class="tag">Graph Neural Networks</span>
           <span class="tag">Machine Learning</span>
-          <span class="tag">AI Research</span>
+          <span class="tag">Large Language Models</span>
         </div>
       </div>
       <div class="session-date">

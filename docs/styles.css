@@ -98,6 +98,30 @@ h2 {
   margin: 2rem 0;
 }
 
+.session-number {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.episode-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.episode-badge::before {
+  content: '🎯';
+  margin-right: 0.5rem;
+}
+
 .session-card {
   background: white;
   border-radius: 16px;
@@ -615,6 +639,11 @@ hr {
   .session-header {
     flex-direction: column;
     text-align: center;
+  }
+  
+  .episode-badge {
+    font-size: 0.875rem;
+    padding: 0.375rem 1.25rem;
   }
   
   .session-date {
