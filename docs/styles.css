@@ -205,6 +205,31 @@ h2 {
   text-decoration: underline;
 }
 
+.speaker-name-link {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* 隐藏浏览器默认的链接标识 */
+.speaker-name-link::after,
+.speaker-name-link::before {
+  display: none !important;
+  content: none !important;
+}
+
+/* 强制隐藏所有可能的链接标识 */
+.speaker-name-link {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+}
+
+.speaker-name-link:focus {
+  outline: none;
+}
+
 .speaker-title {
   color: #6b7280;
   font-size: 1.1rem;
