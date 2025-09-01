@@ -143,6 +143,8 @@ h2 {
   font-weight: 700;
   margin-bottom: 0.5rem;
   opacity: 0.9;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  padding-bottom: 0.5rem;
 }
 
 .date-day {
