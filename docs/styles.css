@@ -93,12 +93,12 @@ h2 {
   text-align: center;
 }
 
-/* 嘉宾卡片 - 新布局 */
-.speakers-section {
+/* 融合的Seminar Sessions布局 */
+.sessions-section {
   margin: 2rem 0;
 }
 
-.speaker-card-full {
+.session-card {
   background: white;
   border-radius: 16px;
   padding: 2rem;
@@ -108,18 +108,54 @@ h2 {
   border: 1px solid #e5e7eb;
 }
 
-.speaker-card-full:hover {
+.session-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
-.speaker-header {
+.session-header {
   display: flex;
   align-items: flex-start;
   gap: 1.5rem;
   margin-bottom: 2rem;
   padding-bottom: 1.5rem;
   border-bottom: 1px solid #f3f4f6;
+}
+
+.session-date {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 1rem;
+  border-radius: 12px;
+  text-align: center;
+  min-width: 100px;
+  flex-shrink: 0;
+}
+
+.date-day {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.date-month {
+  display: block;
+  font-size: 0.875rem;
+  opacity: 0.9;
+}
+
+.date-time {
+  display: block;
+  font-size: 0.75rem;
+  opacity: 0.8;
+  margin-top: 0.25rem;
+}
+
+.date-location {
+  display: block;
+  font-size: 0.75rem;
+  opacity: 0.8;
+  margin-top: 0.25rem;
 }
 
 .speaker-avatar {
@@ -167,13 +203,13 @@ h2 {
   font-weight: 500;
 }
 
-.speaker-content {
+.session-content {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
 }
 
-.speaker-section h4 {
+.session-section h4 {
   font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 1rem;
@@ -182,7 +218,7 @@ h2 {
   padding-left: 1rem;
 }
 
-.speaker-abstract {
+.session-abstract {
   color: #374151;
   line-height: 1.7;
   font-size: 1rem;
@@ -194,6 +230,93 @@ h2 {
   line-height: 1.7;
   font-size: 1rem;
   margin-bottom: 1rem;
+}
+
+.session-video {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  background: #f8fafc;
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+}
+
+.video-thumbnail {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.video-thumbnail img {
+  width: 200px;
+  height: 112px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 8px;
+}
+
+.session-video:hover .video-overlay {
+  opacity: 1;
+}
+
+.play-button {
+  background: rgba(255, 255, 255, 0.9);
+  color: #1f2937;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.video-info {
+  flex: 1;
+}
+
+.video-duration {
+  color: #6b7280;
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.video-description {
+  color: #374151;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.watch-button {
+  display: inline-block;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: transform 0.2s ease;
+}
+
+.watch-button:hover {
+  transform: translateY(-2px);
 }
 
 /* 视频区域 */
@@ -489,12 +612,24 @@ hr {
     gap: 2rem;
   }
   
-  .speaker-header {
+  .session-header {
     flex-direction: column;
     text-align: center;
   }
   
+  .session-date {
+    align-self: center;
+  }
+  
   .speaker-avatar {
+    align-self: center;
+  }
+  
+  .session-video {
+    flex-direction: column;
+  }
+  
+  .video-thumbnail {
     align-self: center;
   }
   
