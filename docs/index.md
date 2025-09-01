@@ -34,7 +34,7 @@ This seminar aims to deeply explore the latest developments in artificial intell
         <img src="images/muhan-zhang.png" alt="Dr. Muhan Zhang">
       </div>
       <div class="speaker-basic-info">
-        <h3>Dr. Muhan Zhang</h3>
+        <h3><a href="https://muhanzhang.github.io/" target="_blank" class="speaker-name-link">Dr. Muhan Zhang</a></h3>
         <p class="speaker-title">Institute for Artificial Intelligence, Peking University</p>
         <div class="speaker-tags">
           <span class="tag">Graph Neural Networks</span>
