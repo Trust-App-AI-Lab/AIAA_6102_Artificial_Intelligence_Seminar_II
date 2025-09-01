@@ -2,7 +2,7 @@
 
 <div class="hero-section">
   <div class="hero-content">
-    <h1 class="hero-title">Welcome!</h1>
+    <h1 class="hero-title">AIAA 6102 Artificial Intelligence Seminar II</h1>
     <p class="hero-subtitle">Exploring Cutting-Edge AI Technologies and Applications</p>
     <div class="hero-stats">
       <div class="stat">
