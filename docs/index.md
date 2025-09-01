@@ -30,12 +30,6 @@ This seminar aims to deeply explore the latest developments in artificial intell
 <div class="sessions-section">
   <div class="session-card">
     <div class="session-header">
-      <div class="session-date">
-        <span class="date-day">15</span>
-        <span class="date-month">March</span>
-        <span class="date-time">14:00-15:30</span>
-        <span class="date-location">Main Building A101</span>
-      </div>
       <div class="speaker-avatar">
         <img src="images/muhan-zhang.png" alt="Dr. Muhan Zhang">
       </div>
@@ -47,6 +41,12 @@ This seminar aims to deeply explore the latest developments in artificial intell
           <span class="tag">Machine Learning</span>
           <span class="tag">AI Research</span>
         </div>
+      </div>
+      <div class="session-date">
+        <span class="date-day">15</span>
+        <span class="date-month">March</span>
+        <span class="date-time">14:00-15:30</span>
+        <span class="date-location">Main Building A101</span>
       </div>
     </div>
     <div class="session-content">
@@ -76,12 +76,6 @@ This seminar aims to deeply explore the latest developments in artificial intell
 
   <div class="session-card">
     <div class="session-header">
-      <div class="session-date">
-        <span class="date-day">22</span>
-        <span class="date-month">March</span>
-        <span class="date-time">14:00-16:00</span>
-        <span class="date-location">Main Building A101</span>
-      </div>
       <div class="speaker-avatar">
         <img src="https://via.placeholder.com/120x120/DC2626/FFFFFF?text=Dr.+Li" alt="Dr. Li">
       </div>
@@ -93,6 +87,12 @@ This seminar aims to deeply explore the latest developments in artificial intell
           <span class="tag">Large Models</span>
           <span class="tag">AI Research</span>
         </div>
+      </div>
+      <div class="session-date">
+        <span class="date-day">22</span>
+        <span class="date-month">March</span>
+        <span class="date-time">14:00-16:00</span>
+        <span class="date-location">Main Building A101</span>
       </div>
     </div>
     <div class="session-content">
@@ -122,12 +122,6 @@ This seminar aims to deeply explore the latest developments in artificial intell
 
   <div class="session-card">
     <div class="session-header">
-      <div class="session-date">
-        <span class="date-day">29</span>
-        <span class="date-month">March</span>
-        <span class="date-time">14:00-16:30</span>
-        <span class="date-location">Main Building A101</span>
-      </div>
       <div class="speaker-avatar">
         <img src="https://via.placeholder.com/120x120/059669/FFFFFF?text=Dr.+Wang" alt="Dr. Wang">
       </div>
@@ -139,6 +133,12 @@ This seminar aims to deeply explore the latest developments in artificial intell
           <span class="tag">Robotics</span>
           <span class="tag">AI Control</span>
         </div>
+      </div>
+      <div class="session-date">
+        <span class="date-day">29</span>
+        <span class="date-month">March</span>
+        <span class="date-time">14:00-16:30</span>
+        <span class="date-location">Main Building A101</span>
       </div>
     </div>
     <div class="session-content">
@@ -168,12 +168,6 @@ This seminar aims to deeply explore the latest developments in artificial intell
 
   <div class="session-card">
     <div class="session-header">
-      <div class="session-date">
-        <span class="date-day">5</span>
-        <span class="date-month">April</span>
-        <span class="date-time">14:00-16:00</span>
-        <span class="date-location">Main Building A101</span>
-      </div>
       <div class="speaker-avatar">
         <img src="https://via.placeholder.com/120x120/7C3AED/FFFFFF?text=Dr.+Chen" alt="Dr. Chen">
       </div>
@@ -185,6 +179,12 @@ This seminar aims to deeply explore the latest developments in artificial intell
           <span class="tag">Diagnosis</span>
           <span class="tag">Healthcare</span>
         </div>
+      </div>
+      <div class="session-date">
+        <span class="date-day">5</span>
+        <span class="date-month">April</span>
+        <span class="date-time">14:00-16:00</span>
+        <span class="date-location">Main Building A101</span>
       </div>
     </div>
     <div class="session-content">
@@ -210,131 +210,6 @@ This seminar aims to deeply explore the latest developments in artificial intell
         </div>
       </div>
     </div>
-  </div>
-</div>
-
-## 📹 Session Videos
-
-<div class="videos-section">
-  <div class="video-grid">
-    <div class="video-card">
-      <div class="video-thumbnail">
-        <img src="https://via.placeholder.com/400x225/1F2937/FFFFFF?text=Session+1" alt="Session 1">
-        <div class="video-overlay">
-          <span class="play-button">▶</span>
-        </div>
-      </div>
-      <div class="video-info">
-        <h4>Session 1: AI Fundamentals and Development Trends</h4>
-        <p class="video-speaker">Speaker: Dr. Zhang</p>
-        <p class="video-duration">Duration: 90 minutes</p>
-        <p class="video-description">Deep dive into AI basic concepts, development history, and future trends, laying the foundation for subsequent topic discussions.</p>
-        <a href="#" class="watch-button">Watch Video</a>
-      </div>
-    </div>
-
-    <div class="video-card">
-      <div class="video-thumbnail">
-        <img src="https://via.placeholder.com/400x225/1F2937/FFFFFF?text=Session+2" alt="Session 2">
-        <div class="video-overlay">
-          <span class="play-button">▶</span>
-        </div>
-      </div>
-      <div class="video-info">
-        <h4>Session 2: Deep Learning Technology Frontiers</h4>
-        <p class="video-speaker">Speaker: Dr. Li</p>
-        <p class="video-duration">Duration: 120 minutes</p>
-        <p class="video-description">Detailed introduction to the latest deep learning architectures and training techniques, including Transformer, BERT, and other models.</p>
-        <a href="#" class="watch-button">Watch Video</a>
-      </div>
-    </div>
-
-    <div class="video-card">
-      <div class="video-thumbnail">
-        <img src="https://via.placeholder.com/400x225/1F2937/FFFFFF?text=Session+3" alt="Session 3">
-        <div class="video-overlay">
-          <span class="play-button">▶</span>
-        </div>
-      </div>
-      <div class="video-info">
-        <h4>Session 3: AI Applications in Specific Domains</h4>
-        <p class="video-speaker">Speakers: Dr. Wang & Dr. Chen</p>
-        <p class="video-duration">Duration: 150 minutes</p>
-        <p class="video-description">Exploring practical AI application cases and challenges in robotics control, medical diagnosis, and other domains.</p>
-        <a href="#" class="watch-button">Watch Video</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-## 📅 Course Schedule
-
-<div class="schedule-section">
-  <div class="schedule-item">
-    <div class="schedule-date">
-      <span class="date-day">15</span>
-      <span class="date-month">March</span>
-    </div>
-    <div class="schedule-content">
-      <h4>AI Fundamentals and Development Trends</h4>
-      <p>Time: 14:00-15:30 | Location: Main Building A101</p>
-      <p>Speaker: Dr. Zhang | Tsinghua University</p>
-    </div>
-  </div>
-
-  <div class="schedule-item">
-    <div class="schedule-date">
-      <span class="date-day">22</span>
-      <span class="date-month">March</span>
-    </div>
-    <div class="schedule-content">
-      <h4>Deep Learning Technology Frontiers</h4>
-      <p>Time: 14:00-16:00 | Location: Main Building A101</p>
-      <p>Speaker: Dr. Li | Google AI Research</p>
-    </div>
-  </div>
-
-  <div class="schedule-item">
-    <div class="schedule-date">
-      <span class="date-day">29</span>
-      <span class="date-month">March</span>
-    </div>
-    <div class="schedule-content">
-      <h4>AI Applications in Specific Domains</h4>
-      <p>Time: 14:00-16:30 | Location: Main Building A101</p>
-      <p>Speakers: Dr. Wang & Dr. Chen | Peking University & Microsoft Research</p>
-    </div>
-  </div>
-</div>
-
-## 📚 Learning Resources
-
-<div class="resources-section">
-  <div class="resource-card">
-    <h4>📖 Recommended Reading</h4>
-    <ul>
-      <li>"Deep Learning" - Ian Goodfellow</li>
-      <li>"Artificial Intelligence: A Modern Approach" - Stuart Russell</li>
-      <li>"Machine Learning" - Tom Mitchell</li>
-    </ul>
-  </div>
-
-  <div class="resource-card">
-    <h4>🔗 Online Resources</h4>
-    <ul>
-      <li><a href="#">Course Slides Download</a></li>
-      <li><a href="#">Lab Code Repository</a></li>
-      <li><a href="#">Discussion Forum</a></li>
-    </ul>
-  </div>
-
-  <div class="resource-card">
-    <h4>📝 Assignment Submission</h4>
-    <ul>
-      <li><a href="#">Assignment 1: AI Basic Concepts</a></li>
-      <li><a href="#">Assignment 2: Deep Learning Practice</a></li>
-      <li><a href="#">Final Project</a></li>
-    </ul>
   </div>
 </div>
 
