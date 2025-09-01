@@ -27,63 +27,111 @@ This seminar aims to deeply explore the latest developments in artificial intell
 
 ## 👥 Invited Speakers
 
-<div class="speakers-grid">
-  <div class="speaker-card">
-    <div class="speaker-avatar">
-      <img src="https://via.placeholder.com/150x150/4F46E5/FFFFFF?text=Dr.+Zhang" alt="Dr. Zhang">
+<div class="speakers-section">
+  <div class="speaker-card-full">
+    <div class="speaker-header">
+      <div class="speaker-avatar">
+        <img src="https://via.placeholder.com/120x120/4F46E5/FFFFFF?text=Dr.+Zhang" alt="Dr. Zhang">
+      </div>
+      <div class="speaker-basic-info">
+        <h3>Dr. Muhan Zhang</h3>
+        <p class="speaker-title">Institute for Artificial Intelligence, Peking University</p>
+        <div class="speaker-tags">
+          <span class="tag">Graph Neural Networks</span>
+          <span class="tag">Machine Learning</span>
+          <span class="tag">AI Research</span>
+        </div>
+      </div>
     </div>
-    <div class="speaker-info">
-      <h3>Dr. Zhang</h3>
-      <p class="speaker-title">Tsinghua University, Computer Science</p>
-      <p class="speaker-topic">Deep Learning Applications in Computer Vision</p>
-      <div class="speaker-tags">
-        <span class="tag">Computer Vision</span>
-        <span class="tag">Deep Learning</span>
+    <div class="speaker-content">
+      <div class="speaker-section">
+        <h4>Title: TransMLA: Multi-Head Latent Attention Is All You Need</h4>
+        <p class="speaker-abstract">We present TransMLA, a framework that seamlessly converts any GQA-based pre-trained model into an MLA-based model. Our approach enables direct compatibility with DeepSeek's codebase, allowing these models to fully leverage DeepSeek-specific optimizations such as vLLM and SGlang. By compressing 93% of the KV cache in LLaMA-2-7B, TransMLA achieves a 10.6x inference speedup at an 8K context length while preserving meaningful output quality. Additionally, the model requires only 6 billion tokens for fine-tuning to regain performance on par with the original across multiple benchmarks. TransMLA offers a practical solution for migrating GQA-based models to the MLA structure. When combined with DeepSeek's advanced features, such as FP8 quantization and Multi-Token Prediction, even greater inference acceleration can be realized.</p>
+      </div>
+      <div class="speaker-section">
+        <h4>Bio</h4>
+        <p class="speaker-bio">Dr. Muhan Zhang is an assistant professor and assistant to the dean at Institute for Artificial Intelligence, Peking University. He is recipient of the National Excellent Youth (Overseas) Project, and Boya and Weiming Young Scholars of Peking University. He graduated from the IEEE pilot class of Shanghai Jiao Tong University in 2015 and obtained his Ph.D. in Computer Science from Washington University in St. Louis in 2019. From 2019 to 2021, he was a research scientist at Meta AI. He was awarded the AI 2000 most influential scholar honorable mentions by Aminer, and Elsevier top 2% scientist worldwide for multiple years. As a pioneer researcher of Graph Neural Networks, his DGCNN algorithm for graph classification was selected as one of the top ten most influential papers at AAAI-2018 and has been cited over 2000 times. His SEAL algorithm for link prediction significantly broadened the applicability of GNNs on multi-node tasks and has been cited over 2500 times. He regularly serves as an area chair for NeurIPS, ICML, ICLR and other top conferences, and he is a reviewer for top journals such as JMLR, TPAMI, TNNLS, TKDE, TSP, AOAS, and JAIR. He teaches Machine Learning and Introduction to Artificial Intelligence at Peking University.</p>
       </div>
     </div>
   </div>
 
-  <div class="speaker-card">
-    <div class="speaker-avatar">
-      <img src="https://via.placeholder.com/150x150/DC2626/FFFFFF?text=Dr.+Li" alt="Dr. Li">
+  <div class="speaker-card-full">
+    <div class="speaker-header">
+      <div class="speaker-avatar">
+        <img src="https://via.placeholder.com/120x120/DC2626/FFFFFF?text=Dr.+Li" alt="Dr. Li">
+      </div>
+      <div class="speaker-basic-info">
+        <h3>Dr. Li</h3>
+        <p class="speaker-title">Google AI Research</p>
+        <div class="speaker-tags">
+          <span class="tag">NLP</span>
+          <span class="tag">Large Models</span>
+          <span class="tag">AI Research</span>
+        </div>
+      </div>
     </div>
-    <div class="speaker-info">
-      <h3>Dr. Li</h3>
-      <p class="speaker-title">Google AI Research</p>
-      <p class="speaker-topic">Large Language Models: Development and Challenges</p>
-      <div class="speaker-tags">
-        <span class="tag">NLP</span>
-        <span class="tag">Large Models</span>
+    <div class="speaker-content">
+      <div class="speaker-section">
+        <h4>Title: Large Language Models: Development and Challenges</h4>
+        <p class="speaker-abstract">Large Language Models (LLMs) have revolutionized natural language processing and artificial intelligence. This talk will cover the latest developments in LLM technology, including architectural innovations, training methodologies, and the challenges faced in developing and deploying these models at scale. We'll explore topics such as efficient training, model compression, and the ethical considerations surrounding large language models.</p>
+      </div>
+      <div class="speaker-section">
+        <h4>Bio</h4>
+        <p class="speaker-bio">Dr. Li is a senior research scientist at Google AI Research, specializing in natural language processing and large language models. With over 10 years of experience in AI research, Dr. Li has contributed to several breakthrough developments in transformer architectures and has published extensively in top-tier conferences and journals.</p>
       </div>
     </div>
   </div>
 
-  <div class="speaker-card">
-    <div class="speaker-avatar">
-      <img src="https://via.placeholder.com/150x150/059669/FFFFFF?text=Dr.+Wang" alt="Dr. Wang">
+  <div class="speaker-card-full">
+    <div class="speaker-header">
+      <div class="speaker-avatar">
+        <img src="https://via.placeholder.com/120x120/059669/FFFFFF?text=Dr.+Wang" alt="Dr. Wang">
+      </div>
+      <div class="speaker-basic-info">
+        <h3>Dr. Wang</h3>
+        <p class="speaker-title">Peking University, AI Research Institute</p>
+        <div class="speaker-tags">
+          <span class="tag">Reinforcement Learning</span>
+          <span class="tag">Robotics</span>
+          <span class="tag">AI Control</span>
+        </div>
+      </div>
     </div>
-    <div class="speaker-info">
-      <h3>Dr. Wang</h3>
-      <p class="speaker-title">Peking University, AI Research Institute</p>
-      <p class="speaker-topic">Reinforcement Learning in Robotics Control</p>
-      <div class="speaker-tags">
-        <span class="tag">Reinforcement Learning</span>
-        <span class="tag">Robotics</span>
+    <div class="speaker-content">
+      <div class="speaker-section">
+        <h4>Title: Reinforcement Learning in Robotics Control</h4>
+        <p class="speaker-abstract">This presentation explores the application of reinforcement learning techniques in robotics control systems. We'll discuss how RL algorithms can be adapted for real-world robotic applications, the challenges of sim-to-real transfer, and recent advances in sample-efficient learning methods. The talk will also cover practical implementations and case studies from various robotic domains.</p>
+      </div>
+      <div class="speaker-section">
+        <h4>Bio</h4>
+        <p class="speaker-bio">Dr. Wang is a leading researcher in reinforcement learning and robotics at Peking University's AI Research Institute. Her work focuses on developing efficient learning algorithms for robotic control and has applications in autonomous vehicles, industrial automation, and assistive robotics.</p>
       </div>
     </div>
   </div>
 
-  <div class="speaker-card">
-    <div class="speaker-avatar">
-      <img src="https://via.placeholder.com/150x150/7C3AED/FFFFFF?text=Dr.+Chen" alt="Dr. Chen">
+  <div class="speaker-card-full">
+    <div class="speaker-header">
+      <div class="speaker-avatar">
+        <img src="https://via.placeholder.com/120x120/7C3AED/FFFFFF?text=Dr.+Chen" alt="Dr. Chen">
+      </div>
+      <div class="speaker-basic-info">
+        <h3>Dr. Chen</h3>
+        <p class="speaker-title">Microsoft Research Asia</p>
+        <div class="speaker-tags">
+          <span class="tag">Medical AI</span>
+          <span class="tag">Diagnosis</span>
+          <span class="tag">Healthcare</span>
+        </div>
+      </div>
     </div>
-    <div class="speaker-info">
-      <h3>Dr. Chen</h3>
-      <p class="speaker-title">Microsoft Research Asia</p>
-      <p class="speaker-topic">Innovative AI Applications in Medical Diagnosis</p>
-      <div class="speaker-tags">
-        <span class="tag">Medical AI</span>
-        <span class="tag">Diagnosis</span>
+    <div class="speaker-content">
+      <div class="speaker-section">
+        <h4>Title: Innovative AI Applications in Medical Diagnosis</h4>
+        <p class="speaker-abstract">This talk presents cutting-edge AI applications in medical diagnosis, focusing on computer vision and deep learning approaches for medical imaging analysis. We'll explore how AI can assist healthcare professionals in early detection, accurate diagnosis, and treatment planning. The presentation will cover recent breakthroughs, clinical validation studies, and the future potential of AI in healthcare.</p>
+      </div>
+      <div class="speaker-section">
+        <h4>Bio</h4>
+        <p class="speaker-bio">Dr. Chen leads the medical AI research team at Microsoft Research Asia, focusing on developing AI solutions for healthcare applications. With expertise in computer vision and medical imaging, Dr. Chen has pioneered several AI-powered diagnostic tools that are currently being used in clinical settings across Asia.</p>
       </div>
     </div>
   </div>
