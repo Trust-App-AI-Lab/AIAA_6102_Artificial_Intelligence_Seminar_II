@@ -67,8 +67,8 @@ This seminar aims to deeply explore the latest developments in artificial intell
           </div>
         </div>
         <div class="video-info">
-          <p class="video-duration">Duration: 90 minutes</p>
-          <p class="video-description">Deep dive into AI basic concepts, development history, and future trends, laying the foundation for subsequent topic discussions.</p>
+          <p class="video-duration">Duration: 45 minutes</p>
+          <p class="video-description">Online Zoom ID: 969 8340 8548<br>Passcode: 823262</p>
           <a href="#" class="watch-button">Watch Video</a>
         </div>
       </div>
