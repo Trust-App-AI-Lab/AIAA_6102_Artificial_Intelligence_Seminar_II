@@ -31,6 +31,54 @@ This seminar aims to deeply explore the latest developments in artificial intell
   <div class="session-card">
     <div class="session-header">
       <div class="speaker-avatar">
+        <img src="images/chao-huang.png" alt="Dr. Chao Huang">
+      </div>
+      <div class="speaker-basic-info">
+        <h3><a href="#" target="_blank" class="speaker-name-link">Dr. Chao Huang</a></h3>
+        <p class="speaker-title">Assistant Professor, The University of Hong Kong (HKU)</p>
+        <div class="speaker-tags">
+          <span class="tag">LLMs</span>
+          <span class="tag">Intelligent Agents</span>
+          <span class="tag">Graph Machine Learning</span>
+        </div>
+      </div>
+      <div class="session-date">
+        <span class="episode-number">Episode 4</span>
+        <span class="date-day">26</span>
+        <span class="date-month">Septemper</span>
+        <span class="date-time">13:30-14:20</span>
+        <span class="date-location">Room 102, E4</span>
+      </div>
+    </div>
+    <div class="session-content">
+      <div class="session-section">
+        <h4>Title: The Rise of LLM Agents: Opportunities and Challenges</h4>
+        <p class="session-abstract">
+          Large Language Model (LLM) agents mark a pivotal evolution from passive AI assistants to autonomous systems capable of reasoning, planning, and executing complex tasks. These intelligent agents are revolutionizing industries through breakthrough applications in automated coding, scientific research, and business process optimization. This talk examines both the remarkable potential and significant challenges facing LLM agents today. Through real-world case studies and cutting-edge research findings, we will explore the roadmap toward developing powerful AI agents that can meaningfully enhance human productivity and decision-making across diverse domains.
+        </p>
+      </div>
+      <div class="session-section">
+        <h4>Bio</h4>
+        <p class="speaker-bio">
+          Chao Huang is an Assistant Professor in the Department of Computer Science and Institute of Data Science at HKU. His research focuses on Large Language Models (LLMs), Intelligent Agents, and Graph Machine Learning, with over 12,000 citations on Google Scholar. Dr. Huang leads the Data Intelligence Lab at HKU, developing open-source AI projects including LightRAG, AutoAgent, DeepCode, RAG-Anything, AI-Researcher, MiniRAG and VideoRAG. These projects have accumulated over 54,000 GitHub stars, ranking in the global Top-200 and appearing on GitHub's trending list 35 times. He has received the "Rising Star" award at the 2024 World Artificial Intelligence Conference (WAIC), the "2024 Frontier Science Award in Theoretical Computer Science and Information Science," and has been selected for "2025 AI100 Young Pioneers" and "2025 AI 2000 Most Influential Scholars Worldwide." Dr. Huang's research has been recognized as high-impact work at leading international conferences including KDD (2019/2022/2023/2024), WWW (2023/2024), and SIGIR (2021/2022/2023/2024). The team's research has also received Best Paper Nomination Awards at ACM MM2024, WWW2023, WSDM2022, and WWW2019.
+        </p>
+      </div>
+      <div class="session-video">
+        <div class="video-thumbnail">
+          <img src="https://via.placeholder.com/400x225/1F2937/FFFFFF?text=Session+4" alt="Session 4">
+        </div>
+        <div class="video-info">
+          <p class="video-duration">Duration: 45 minutes</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="sessions-section">
+  <div class="session-card">
+    <div class="session-header">
+      <div class="speaker-avatar">
         <img src="images/qiaoyu-tan.png" alt="Dr. Qiaoyu Tan">
       </div>
       <div class="speaker-basic-info">
