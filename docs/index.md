@@ -25,7 +25,9 @@
 
 This seminar aims to deeply explore the latest developments in artificial intelligence, inviting industry experts and academic leaders to share their research findings and practical experiences. Through theoretical lectures, case studies, and interactive discussions, participants will gain a comprehensive understanding of the current state and future trends of AI technology.
 
-**Online Zoom ID:** 969 8340 8548 **Passcode:** 823262
+**Online Zoom ID:** 969 8340 8548 
+
+**Passcode:** 823262
 
 ## 🎓 Seminar Sessions
 
